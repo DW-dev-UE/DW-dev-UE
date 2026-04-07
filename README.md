@@ -48,6 +48,10 @@ Below are the major projects I have been involved in so far.
 
 ![Cloud](https://skillicons.dev/icons?i=aws,gcp,azure)
 
+**ETC**
+
+![Css](https://skillicons.dev/icons?i=css,git,github,html,visualstudio,vscode)
+
 ---
 
 **Contact**  
