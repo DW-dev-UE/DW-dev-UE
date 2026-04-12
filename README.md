@@ -59,7 +59,6 @@ Passionate Full Stack & AI Developer with strong expertise in **Unreal Engine 5*
 **AI**  
 ![PyTorch](https://skillicons.dev/icons?i=pytorch) 
 ![TensorFlow](https://skillicons.dev/icons?i=tensorflow) 
-![Scikit-learn](https://skillicons.dev/icons?i=scikitlearn) 
 ![CUDA](https://skillicons.dev/icons?i=cuda)
 
 **CLOUD**  
