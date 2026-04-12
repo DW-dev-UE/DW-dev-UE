@@ -1,7 +1,7 @@
 <div align="right">
-🇺🇸 **[English](README.md)**    
-🇰🇷 **[한국어](README_ko.md)**    
-🇯🇵 **[日本語](README_ja.md)**
+  🇺🇸 <a href="README.md"><strong>English</strong></a> &nbsp;&nbsp;
+  🇰🇷 <a href="README_ko.md"><strong>한국어</strong></a> &nbsp;&nbsp;
+  🇯🇵 <a href="README_ja.md"><strong>日本語</strong></a>
 </div>
 
 <br>
