@@ -1,13 +1,13 @@
 <div align="right">
-🇺🇸 <strong>[English](README.md)</strong> &nbsp;&nbsp;&nbsp;
-🇰🇷 <strong>[한국어](README_ko.md)</strong> &nbsp;&nbsp;&nbsp;
-🇯🇵 <strong>[日本語](README_ja.md)</strong>
+🇺🇸 **[English](README.md)**    
+🇰🇷 **[한국어](README_ko.md)**    
+🇯🇵 **[日本語](README_ja.md)**
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github.com/DW-dev-UE/DW-dev-UE/blob/main/assets/profile-avatar.png" width="180" height="180" style="border-radius: 50%; border: 5px solid #00ff9d;" alt="DONGWOOK Avatar"/>
+  <img src="https://github.com/DW-dev-UE/DW-dev-UE/blob/main/profile-avatar.png" width="180" height="180" style="border-radius: 50%; border: 5px solid #00ff9d;" alt="DONGWOOK Avatar"/>
   
   <h1>Hi, I'm DONGWOOK 👋</h1>
   
