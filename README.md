@@ -35,7 +35,6 @@ Passionate Full Stack & AI Developer with strong expertise in **Unreal Engine 5*
 ### 🚀 Featured Projects
 **Click each project title** to view the full details (overview, architecture, tech stack, screenshots, etc.).
 
-- 🎮 **[P2E MMORPG](https://github.com/DW-dev-UE/DevLOG/blob/main/P2E-MMORPG.md)** — Blockchain 기반 대규모 멀티플레이어 RPG
 - 🏫 **[Konkuk University RV.LAB Project](https://github.com/DW-dev-UE/DevLOG/blob/main/Konkuk-RVLab.md)** — 대학 연구실 실전 프로젝트
 - ⚡ **[ShiningPass: Architecture Optimization (2025)](https://github.com/DW-dev-UE/DevLOG/blob/main/ShiningPass-Architecture.md)** — 시스템 성능 340% 향상 프로젝트
 - 🤖 **[CUDA & YOLOv26 AI Drawing Automation Feature (~2026)](https://github.com/DW-dev-UE/DevLOG/blob/main/CUDA-YOLOv26-AI.md)** — AI 기반 자동화 기능 개발
