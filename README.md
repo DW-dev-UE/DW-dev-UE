@@ -42,6 +42,8 @@ Passionate Full Stack & AI Developer with strong expertise in **Unreal Engine 5*
 - 🚀 **[STEAM Game Release](https://github.com/DW-dev-UE/DevLOG/blob/main/STEAM-Game-Release.md)** — Steam 플랫폼 게임 출시
 - 📦 **[Kmong Freelance Projects](https://github.com/DW-dev-UE/DevLOG/blob/main/Kmong-Freelance.md)** — 크몽 프리랜서 다수 프로젝트
 
+- 🏡 **[ShiningPass: Planterior-AI](https://github.com/DW-dev-UE/Planterior-AI)** — AI 모델부터 백엔드 서버, 디지털 트윈까지
+
 ---
 
 ### Tech Stack
