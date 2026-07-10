@@ -36,7 +36,7 @@
 
 ### 🧠 [LLM-from-scratch](https://github.com/DW-dev-UE/LLM-from-scratch)
 
-> **外部 LLM の重みを使わずに作った GPT-2 級 Decoder-only モデル**
+> **外部 LLM の重みを使わずに作った GPT 級 Decoder-only モデル**
 
 📦 トークナイザー → 事前学習 → SFT → DPO / GRPO → チャット推論 → 人のフィードバックループ  
 📚 ドキュメント 🇰🇷 / 🇺🇸 / 🇯🇵 · Base V1 ベンチマークレポート付き
