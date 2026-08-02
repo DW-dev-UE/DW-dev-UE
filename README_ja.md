@@ -55,7 +55,6 @@
 
 |  | プロジェクト | 概要 |
 |:--:|:-------------|:-----|
-| 🧠 | **[LLM-from-scratch](https://github.com/DW-dev-UE/LLM-from-scratch)** | LLM の設計 · 学習 · 推論 · フィードバックをゼロから |
 | 🏫 | **[建国大 RV.LAB](https://github.com/DW-dev-UE/DevLOG/blob/main/Konkuk-RVLab.md)** | 大学研究室の実務プロジェクト |
 | ⚡ | **[ShiningPass アーキテクチャ](https://github.com/DW-dev-UE/DevLOG/blob/main/ShiningPass-Architecture.md)** | システム性能最適化（約 340% 向上, 2025） |
 | 🖼️ | **[CUDA · YOLOv26 図面 AI](https://github.com/DW-dev-UE/DevLOG/blob/main/CUDA-YOLOv26-AI.md)** | 図面向け AI 自動化 |
@@ -65,6 +64,44 @@
 | 🏡 | **[Planterior-AI](https://github.com/DW-dev-UE/Planterior-AI/blob/main/README.md)** | AI モデル → バックエンド → デジタルツイン |
 
 👆 タイトルを開くと概要 · 構成 · 技術 · スクリーンショットを確認できます。
+
+---
+
+## 📦 PyPI ライブラリ
+
+`pip` でインストールできる公開パッケージです。
+
+### 🧩 [ComposeLM](https://github.com/DW-dev-UE/ComposeLM) · `composelm`
+
+> **一行設定で組み立てるモジュール型 Transformer · 学習 · 推論**
+
+単一の `ModelConfig` で decoder-only LLM を組み立て · 学習 · 再開 · ローカル推論する PyTorch ライブラリです。Llama / Mistral / Qwen などのプリセット、DDP · FSDP2、ローカル生成、任意の vLLM export に対応。事前学習済み重みは同梱しません。
+
+| 🏷️ | 内容 |
+|:--|:--|
+| 📥 インストール | `pip install composelm` |
+| 🏷️ バージョン | **1.0.0**（stable） |
+| ⚙️ スタック | Python 3.10+ · PyTorch 2.8+ · SafeTensors |
+| 🔑 キーワード | モジュール型 LLM · ModelConfig · train / resume · GQA · MoE · RoPE |
+
+🔗 [GitHub](https://github.com/DW-dev-UE/ComposeLM) &nbsp;·&nbsp; 📦 [PyPI](https://pypi.org/project/composelm/) &nbsp;·&nbsp; 📚 [ドキュメント](https://github.com/DW-dev-UE/ComposeLM/tree/main/docs)
+
+---
+
+### ⚡ [schema2code](https://github.com/DW-dev-UE/schema2code) · `schema2code`
+
+> **LLM が JSON tool call ではなくサンドボックス Python でツールを呼ぶ**
+
+ツールスキーマを短い Python シグネチャに変換。モデルが 1 本のプログラムを書き、制限付きサンドボックスで実行します。従来の JSON tool-calling との測定比較: **トークン −70%**、**ラウンドトリップ −66%**、コスト削減 · 複雑なマルチツールタスクの精度向上。
+
+| 🏷️ | 内容 |
+|:--|:--|
+| 📥 インストール | `pip install schema2code` |
+| 🏷️ バージョン | **0.2.0** |
+| ⚙️ スタック | Python 3.10+ · **ランタイム依存 0** |
+| 📊 結果 | トークン −70% · API ターン −66% · サンドボックス FP = 0 / 60 |
+
+🔗 [GitHub](https://github.com/DW-dev-UE/schema2code) &nbsp;·&nbsp; 📦 [PyPI](https://pypi.org/project/schema2code/) &nbsp;·&nbsp; 📊 [ベンチマーク](https://github.com/DW-dev-UE/schema2code/tree/main/benchmarks/results)
 
 ---
 
