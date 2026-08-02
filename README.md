@@ -53,7 +53,6 @@ Full stack and AI developer with a strong focus on **Unreal Engine 5**, **Python
 
 |  | Project | What it is |
 |:--:|:--------|:-----------|
-| 🧠 | **[LLM-from-scratch](https://github.com/DW-dev-UE/LLM-from-scratch)** | From-scratch LLM: architecture, train, infer, feedback |
 | 🏫 | **[Konkuk RV.LAB](https://github.com/DW-dev-UE/DevLOG/blob/main/Konkuk-RVLab.md)** | University lab production project |
 | ⚡ | **[ShiningPass architecture](https://github.com/DW-dev-UE/DevLOG/blob/main/ShiningPass-Architecture.md)** | System optimization (~340% gain, 2025) |
 | 🖼️ | **[CUDA · YOLOv26 drawing AI](https://github.com/DW-dev-UE/DevLOG/blob/main/CUDA-YOLOv26-AI.md)** | AI automation for drawings |
@@ -63,6 +62,44 @@ Full stack and AI developer with a strong focus on **Unreal Engine 5**, **Python
 | 🏡 | **[Planterior-AI](https://github.com/DW-dev-UE/Planterior-AI/blob/main/README.md)** | AI model → backend → digital twin |
 
 👆 Open a title for overview, architecture, stack, and screenshots.
+
+---
+
+## 📦 PyPI Libraries
+
+Published packages you can install with `pip`.
+
+### 🧩 [ComposeLM](https://github.com/DW-dev-UE/ComposeLM) · `composelm`
+
+> **One-line configurable modular Transformer · assemble · train · infer**
+
+PyTorch library for building decoder-only LMs from a single `ModelConfig` — presets (Llama / Mistral / Qwen / …), DDP · FSDP2 training, local generation, optional vLLM export. No pretrained weights shipped.
+
+| 🏷️ | Detail |
+|:--|:--|
+| 📥 Install | `pip install composelm` |
+| 🏷️ Version | **1.0.0** (stable) |
+| ⚙️ Stack | Python 3.10+ · PyTorch 2.8+ · SafeTensors |
+| 🔑 Keywords | modular LLM · ModelConfig · train / resume · GQA · MoE · RoPE |
+
+🔗 [GitHub](https://github.com/DW-dev-UE/ComposeLM) &nbsp;·&nbsp; 📦 [PyPI](https://pypi.org/project/composelm/) &nbsp;·&nbsp; 📚 [Docs](https://github.com/DW-dev-UE/ComposeLM/tree/main/docs)
+
+---
+
+### ⚡ [schema2code](https://github.com/DW-dev-UE/schema2code) · `schema2code`
+
+> **LLMs call tools by writing sandboxed Python — not JSON tool calls**
+
+Turn tool schemas into compact Python signatures. The model writes one program; a restricted sandbox runs it. Measured vs classic JSON tool-calling: **−70% tokens**, **−66% round trips**, lower cost, higher accuracy on complex multi-tool tasks.
+
+| 🏷️ | Detail |
+|:--|:--|
+| 📥 Install | `pip install schema2code` |
+| 🏷️ Version | **0.2.0** |
+| ⚙️ Stack | Python 3.10+ · **0 runtime deps** |
+| 📊 Result | −70% tokens · −66% API turns · sandbox-guard FP = 0 / 60 |
+
+🔗 [GitHub](https://github.com/DW-dev-UE/schema2code) &nbsp;·&nbsp; 📦 [PyPI](https://pypi.org/project/schema2code/) &nbsp;·&nbsp; 📊 [Benchmarks](https://github.com/DW-dev-UE/schema2code/tree/main/benchmarks/results)
 
 ---
 
