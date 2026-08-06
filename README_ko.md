@@ -50,6 +50,9 @@
 | 🤗 가중치 | [Apex-1-DPO](https://huggingface.co/YOON1v/Apex-1-DPO) |
 | 📎 참고 | ~**327M** 다국어 `base` ([BENCHMARK-v1.md](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v1.md)) · 다음: **APEX-2 (7B)** |
 
+> [!TIP]
+> 학습 곡선·ablation·평가 방법론은 아래 벤치마크 문서에 전부 정리돼 있습니다.
+
 🔗 [저장소](https://github.com/DW-dev-UE/LLM-from-scratch) &nbsp;·&nbsp; 📊 [벤치마크 v2](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v2.md) &nbsp;·&nbsp; 🤗 [HF](https://huggingface.co/YOON1v/Apex-1-DPO)
 
 ---
@@ -66,7 +69,8 @@
 | 📦 | **[크몽 프리랜스](projects/kmong/Kmong_ko.md)** | 2022– | UE4/5 외주 · 만족 5.0 (35) · 거래 42건 |
 | 🏡 | **[Planterior-AI](https://github.com/DW-dev-UE/Planterior-AI/blob/main/README.md)** | 2025–2026 | AI 모델 → 백엔드 → 디지털 트윈 |
 
-👆 제목을 누르면 개요, 아키텍처, 스택, 스크린샷을 볼 수 있습니다.
+> [!TIP]
+> 아래 프로젝트 제목을 누르면 전체 아키텍처, 스택, 스크린샷을 볼 수 있습니다.
 
 ---
 
@@ -78,7 +82,10 @@
 
 > **한 줄 설정으로 조립하는 모듈형 Transformer · 학습 · 추론**
 
-단일 `ModelConfig` 로 decoder-only LLM을 조립·학습·재개·로컬 추론하는 PyTorch 라이브러리입니다. Llama / Mistral / Qwen 등 프리셋, DDP · FSDP2, 로컬 생성, 선택적 vLLM export를 지원합니다. 사전학습 가중치는 포함하지 않습니다.
+단일 `ModelConfig` 로 decoder-only LLM을 조립·학습·재개·로컬 추론하는 PyTorch 라이브러리입니다. Llama / Mistral / Qwen 등 프리셋, DDP · FSDP2, 로컬 생성, 선택적 vLLM export를 지원합니다.
+
+> [!NOTE]
+> 사전학습된 가중치는 패키지에 포함되어 있지 않습니다.
 
 | 🏷️ | 내용 |
 |:--|:--|

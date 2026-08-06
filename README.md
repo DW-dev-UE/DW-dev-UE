@@ -48,6 +48,9 @@ Full stack and AI developer with a strong focus on **Unreal Engine 5**, **Python
 | 🤗 Weights | [Apex-1-DPO](https://huggingface.co/YOON1v/Apex-1-DPO) |
 | 📎 Also | ~**327M** multilingual `base` ([BENCHMARK-v1.en.md](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v1.en.md)) · next: **APEX-2 (7B)** |
 
+> [!TIP]
+> Full training curves, ablations, and eval methodology live in the benchmark doc linked below.
+
 🔗 [Repository](https://github.com/DW-dev-UE/LLM-from-scratch) &nbsp;·&nbsp; 📊 [Benchmark v2](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v2.en.md) &nbsp;·&nbsp; 🤗 [HF](https://huggingface.co/YOON1v/Apex-1-DPO)
 
 ---
@@ -64,7 +67,8 @@ Full stack and AI developer with a strong focus on **Unreal Engine 5**, **Python
 | 📦 | **[Kmong freelance](projects/kmong/Kmong.md)** | 2022– | UE4/5 outsourcing · 5.0 (35) · 42 deals |
 | 🏡 | **[Planterior-AI](https://github.com/DW-dev-UE/Planterior-AI/blob/main/README.md)** | 2025–2026 | AI model → backend → digital twin |
 
-👆 Open a title for overview, architecture, stack, and screenshots.
+> [!TIP]
+> Open any title below for full architecture notes, stack details, and screenshots.
 
 ---
 
@@ -76,7 +80,10 @@ Published packages you can install with `pip`.
 
 > **One-line configurable modular Transformer · assemble · train · infer**
 
-PyTorch library for building decoder-only LMs from a single `ModelConfig` — presets (Llama / Mistral / Qwen / …), DDP · FSDP2 training, local generation, optional vLLM export. No pretrained weights shipped.
+PyTorch library for building decoder-only LMs from a single `ModelConfig` — presets (Llama / Mistral / Qwen / …), DDP · FSDP2 training, local generation, optional vLLM export.
+
+> [!NOTE]
+> No pretrained weights are shipped with the package.
 
 | 🏷️ | Detail |
 |:--|:--|

@@ -19,6 +19,9 @@ This page documents systems that exist in the codebase — not team size or hour
 
 ## Why this project
 
+> [!IMPORTANT]
+> Client-side source and full design ownership stay with the client — this page only covers what's visible from the codebase.
+
 The design needs a loop that feels different by time of day,  
 but still shares one progress bar: **trust**, **items**, and **flags**.
 
@@ -539,6 +542,9 @@ Main menu · Replay.
 ---
 
 ## Disclosure
+
+> [!NOTE]
+> This is a client freelance project — the write-up below covers only what's observable in the project tree.
 
 This was a **client freelance** project.
 

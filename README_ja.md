@@ -50,6 +50,9 @@
 | 🤗 重み | [Apex-1-DPO](https://huggingface.co/YOON1v/Apex-1-DPO) |
 | 📎 その他 | 約 **327M** 多言語 `base`（[BENCHMARK-v1.ja.md](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v1.ja.md)）· 次: **APEX-2（7B）** |
 
+> [!TIP]
+> 学習曲線・アブレーション・評価方法は下のベンチマーク資料にまとまっています。
+
 🔗 [リポジトリ](https://github.com/DW-dev-UE/LLM-from-scratch) &nbsp;·&nbsp; 📊 [ベンチマーク v2](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v2.ja.md) &nbsp;·&nbsp; 🤗 [HF](https://huggingface.co/YOON1v/Apex-1-DPO)
 
 ---
@@ -66,7 +69,8 @@
 | 📦 | **[Kmong フリーランス](projects/kmong/Kmong_ja.md)** | 2022– | UE4/5 外注 · 満足 5.0 (35) · 取引 42 件 |
 | 🏡 | **[Planterior-AI](https://github.com/DW-dev-UE/Planterior-AI/blob/main/README.md)** | 2025–2026 | AI モデル → バックエンド → デジタルツイン |
 
-👆 タイトルを開くと概要 · 構成 · 技術 · スクリーンショットを確認できます。
+> [!TIP]
+> 下のプロジェクトタイトルを開くと、アーキテクチャ・スタック・スクリーンショットを確認できます。
 
 ---
 
@@ -78,7 +82,10 @@
 
 > **一行設定で組み立てるモジュール型 Transformer · 学習 · 推論**
 
-単一の `ModelConfig` で decoder-only LLM を組み立て · 学習 · 再開 · ローカル推論する PyTorch ライブラリです。Llama / Mistral / Qwen などのプリセット、DDP · FSDP2、ローカル生成、任意の vLLM export に対応。事前学習済み重みは同梱しません。
+単一の `ModelConfig` で decoder-only LLM を組み立て · 学習 · 再開 · ローカル推論する PyTorch ライブラリです。Llama / Mistral / Qwen などのプリセット、DDP · FSDP2、ローカル生成、任意の vLLM export に対応。
+
+> [!NOTE]
+> 事前学習済みの重みはパッケージに含まれていません。
 
 | 🏷️ | 内容 |
 |:--|:--|

@@ -71,7 +71,8 @@ Sample feedback (masked nicknames · all **5.0**):
 - “Best among many developers I’ve worked with”  
 - Clear code + teaching · accurate results · quick understanding of needs  
 
-→ **All shown review samples are 5.0**; satisfaction metric **100%**.
+> [!TIP]
+> All shown review samples are **5.0**, with a **100%** satisfaction metric.
 
 ---
 

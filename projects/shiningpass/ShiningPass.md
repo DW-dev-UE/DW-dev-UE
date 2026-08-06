@@ -64,6 +64,9 @@ only **verified accounts** can open the UE5 client.
 
 ### One account · one session
 
+> [!TIP]
+> This is a security feature, not a paywall — it kills shared-password abuse and multi-seat use on a single license.
+
 Customer logins are limited to **one concurrent session per account**.
 
 If the same ID signs in on another PC (or another session),  
@@ -212,6 +215,9 @@ so pooling and apply logic stay one system.
 ---
 
 ## Disclosure limit
+
+> [!IMPORTANT]
+> Dashboard captures, internal APIs, and infra details stay private under NDA — only what's shown here is public.
 
 Everything on this page — overview, architecture notes, and in-client screenshots — is what can be shown **publicly**.
 

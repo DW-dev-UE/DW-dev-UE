@@ -13,6 +13,9 @@ Put on a headset, walk a field-like case, and practice how to respond.
 
 Source stays with the lab / client, so this page is **what shipped** and **what I owned** — not a public code drop.
 
+> [!IMPORTANT]
+> The source isn't public — it belongs to the lab and client. Everything here is backed by the professor's **project completion certificate** below.
+
 Work is backed by the professor’s **project completion certificate** below.
 
 ---
@@ -247,7 +250,8 @@ and that Yoon Dong-wook completed the projects successfully with responsibility.
 ## Media
 
 In-game and editor captures.  
-(Some frames still show texture-streaming warnings from a dev preview build.)
+> [!NOTE]
+> Some frames still show texture-streaming warnings — they're from a dev preview build, not the shipped version.
 
 ### 1. Scenario select · level setup (UE Editor)
 

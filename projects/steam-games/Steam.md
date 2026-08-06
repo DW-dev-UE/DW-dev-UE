@@ -19,6 +19,9 @@ Developer: **Y Games**, **YUNDONGWOOK** · Publisher: **Y Games**
 
 ## Why list them
 
+> [!NOTE]
+> Review counts and scores below are shown exactly as the store displays them — no cherry-picking.
+
 Real **storefront shipping**: pages, builds, localization, and system requirements.
 
 Review counts and revenue here are exactly what the store shows.  
@@ -135,6 +138,9 @@ Canonical source: the **Steam store pages**.
 ---
 
 ## Disclosure
+
+> [!NOTE]
+> Internal revenue, MAU, and private build logs aren't included — just public store facts.
 
 Public store facts and the summary above are the scope of this page.  
 Internal revenue, MAU, and private build logs aren't part of it.
