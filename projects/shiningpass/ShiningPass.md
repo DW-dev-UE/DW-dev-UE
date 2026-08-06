@@ -16,6 +16,42 @@ In the client: swap **materials and furniture** inside architectural interiors i
 
 ---
 
+## Contract & certificate
+
+Contracted directly with **ShiningPass** to build and deliver the SaaS (web + UE5 client) end to end.
+
+| | |
+|:--|:--|
+| Client | ShiningPass |
+| Project | Interior finish simulation service |
+| Period | 2025.02.03 – 2026.04.08 |
+| Role | Freelance developer |
+| Scope | Software development · applied SW |
+
+> [!NOTE]
+> The certificate's registered project name is just the administrative line item — "Interior finish simulation service." The actual contract covered the full scope on this page: the official website, backend, and infra, plus the UE5 client. Backed by a software engineer career certificate from **KOSA (Korea AI Software Industry Association, formerly Korea Software Industry Association)** — see below.
+
+<p align="center">
+  <img src="assets/certificate-kosa.png" width="720" alt="KOSA software engineer career certificate" />
+</p>
+
+Issued under Article 24(3) of Korea's Software Industry Promotion Act and its enforcement rule Article 13(3).
+
+## Korea Build Week
+
+This project helped land new client companies, and led to a booth at **Korea Build Week**, an architecture expo held at **KINTEX** in Seoul.
+
+At the booth, the UE5 client was demoed live on a large touchscreen for architects, engineers, and construction managers.
+
+<p align="center">
+  <img src="assets/korea-build-week-badge.jpg" width="360" alt="Korea Build Week exhibitor badge" />
+</p>
+
+<p align="center">
+  <img src="assets/korea-build-week-booth.jpg" width="900" alt="Live demo at the Korea Build Week booth" />
+</p>
+---
+
 ## Why this project
 
 In architecture / interior sales and review,  
