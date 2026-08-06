@@ -34,34 +34,37 @@
 
 ## ⭐ Spotlight
 
-### 🧠 [LLM-from-scratch](https://github.com/DW-dev-UE/LLM-from-scratch)
+### 🧠 [LLM-from-scratch](https://github.com/DW-dev-UE/LLM-from-scratch) · `2026`
 
-> **외부 LLM 가중치 없이 만든 GPT급 Decoder-only 모델**
+> **Apex-1 · 1,119.5M · 외부 가중치 없이 만든 GPT급 Decoder-only · Pretrain · SFT · DPO 완료**
 
-📦 토크나이저 → 사전학습 → SFT → DPO / GRPO → 채팅 추론 → 인간 피드백 루프  
-📚 문서 🇰🇷 / 🇺🇸 / 🇯🇵 · Base V1 벤치마크 리포트 포함
+📦 토크나이저 → 사전학습 → SFT → DPO / GRPO → 추론 → 인간 피드백 루프  
+📚 문서 🇰🇷 / 🇺🇸 / 🇯🇵 · [BENCHMARK-v2.md](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v2.md) (Apex-1)
 
 | 🏷️ | 내용 |
 |:--|:--|
 | ⚙️ 스택 | PyTorch · CUDA · BPE 토크나이저 |
-| 📐 모델 | 약 327M `base` (RMSNorm, RoPE, SwiGLU, GQA) |
-| 🔄 상태 | 지속적으로 업데이트 중 |
+| 📐 구조 | 24L · d2048 · GQA (16Q / 4KV) · RoPE · SwiGLU · RMSNorm · QK-Norm |
+| 🏋️ 학습 | **51K** step · **~20B** 토큰 (EN-only) · ctx train **2048** / max **4096** |
+| 📊 점수 | HumanEval **8.5** · HellaSwag **46.9** · ARC **41.6** · PIQA **68.6** · GSM8K **1.9** |
+| 🤗 가중치 | [Apex-1-DPO](https://huggingface.co/YOON1v/Apex-1-DPO) |
+| 📎 참고 | ~**327M** 다국어 `base` ([BENCHMARK-v1.md](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v1.md)) · 다음: **APEX-2 (7B)** |
 
-🔗 [저장소](https://github.com/DW-dev-UE/LLM-from-scratch) &nbsp;·&nbsp; 📊 [벤치마크](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v1.md)
+🔗 [저장소](https://github.com/DW-dev-UE/LLM-from-scratch) &nbsp;·&nbsp; 📊 [벤치마크 v2](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v2.md) &nbsp;·&nbsp; 🤗 [HF](https://huggingface.co/YOON1v/Apex-1-DPO)
 
 ---
 
 ## 🚀 주요 프로젝트
 
-|  | 프로젝트 | 한 줄 설명 |
-|:--:|:---------|:-----------|
-| 🏫 | **[건국대 RV.LAB](https://github.com/DW-dev-UE/DevLOG/blob/main/Konkuk-RVLab.md)** | 대학 연구실 실전 프로젝트 |
-| ⚡ | **[ShiningPass 아키텍처](https://github.com/DW-dev-UE/DevLOG/blob/main/ShiningPass-Architecture.md)** | 시스템 성능 최적화 (약 340% 향상, 2025) |
-| 🖼️ | **[CUDA · YOLOv26 도면 AI](https://github.com/DW-dev-UE/DevLOG/blob/main/CUDA-YOLOv26-AI.md)** | 도면 자동화 AI 기능 |
-| 💼 | **[ABadOmic (프리랜스)](https://github.com/DW-dev-UE/DevLOG/blob/main/ABadOmic-Freelance.md)** | 클라이언트 프로젝트 |
-| 🎮 | **[STEAM 게임 출시](https://github.com/DW-dev-UE/DevLOG/blob/main/STEAM-Game-Release.md)** | Steam 플랫폼 게임 출시 |
-| 📦 | **[크몽 프리랜스](https://github.com/DW-dev-UE/DevLOG/blob/main/Kmong-Freelance.md)** | 다수 프리랜스 납품 |
-| 🏡 | **[Planterior-AI](https://github.com/DW-dev-UE/Planterior-AI/blob/main/README.md)** | AI 모델 → 백엔드 → 디지털 트윈 |
+|  | 프로젝트 | 연도 | 한 줄 설명 |
+|:--:|:---------|:----:|:-----------|
+| 🏫 | **[건국대 RV.LAB](projects/konkuk-rvlab/Konkuk-RVLab_ko.md)** | 2023–2024 | 상황별 경찰 VR 훈련 (Quest · UE5) |
+| ⚡ | **[ShiningPass](projects/shiningpass/ShiningPass_ko.md)** | 2025 | 건축 인테리어 클라이언트 + 웹 (UE5 · Python · AWS) |
+| 🖼️ | **[CUDA · YOLOv26 도면 AI](https://github.com/DW-dev-UE/YOLO-to-DALI-CUDA)** | 2026 | YOLO + CUDA DALI 파이프라인 도면 AI |
+| 💼 | **[ABadOmic (프리랜스)](projects/abadomic/ABadOmic_ko.md)** | 2025 | 낮/밤 탈출 · UE5.6 C++ (숙소 / 신뢰도 / 다중 엔딩) |
+| 🎮 | **[STEAM 게임](projects/steam-games/Steam_ko.md)** | 2023 | Only go up™ · THE LAST BREATH (Y Games / YUNDONGWOOK) |
+| 📦 | **[크몽 프리랜스](projects/kmong/Kmong_ko.md)** | 2022– | UE4/5 외주 · 만족 5.0 (35) · 거래 42건 |
+| 🏡 | **[Planterior-AI](https://github.com/DW-dev-UE/Planterior-AI/blob/main/README.md)** | 2025–2026 | AI 모델 → 백엔드 → 디지털 트윈 |
 
 👆 제목을 누르면 개요, 아키텍처, 스택, 스크린샷을 볼 수 있습니다.
 
@@ -71,7 +74,7 @@
 
 `pip` 으로 설치할 수 있는 공개 패키지입니다.
 
-### 🧩 [ComposeLM](https://github.com/DW-dev-UE/ComposeLM) · `composelm`
+### 🧩 [ComposeLM](https://github.com/DW-dev-UE/ComposeLM) · `composelm` · `2026`
 
 > **한 줄 설정으로 조립하는 모듈형 Transformer · 학습 · 추론**
 
@@ -88,7 +91,7 @@
 
 ---
 
-### ⚡ [schema2code](https://github.com/DW-dev-UE/schema2code) · `schema2code`
+### ⚡ [schema2code](https://github.com/DW-dev-UE/schema2code) · `schema2code` · `2026`
 
 > **LLM이 JSON tool call 대신 샌드박스 Python으로 도구를 호출**
 

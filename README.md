@@ -32,34 +32,37 @@ Full stack and AI developer with a strong focus on **Unreal Engine 5**, **Python
 
 ## ⭐ Spotlight
 
-### 🧠 [LLM-from-scratch](https://github.com/DW-dev-UE/LLM-from-scratch)
+### 🧠 [LLM-from-scratch](https://github.com/DW-dev-UE/LLM-from-scratch) · `2026`
 
-> **GPT class decoder-only LLM · built without external model weights**
+> **Apex-1 · 1,119.5M · GPT-class decoder-only · no external weights · Pretrain · SFT · DPO done**
 
-📦 Tokenizer → pretrain → SFT → DPO / GRPO → chat inference → human-feedback loop  
-📚 Docs in 🇰🇷 / 🇺🇸 / 🇯🇵 · includes Base V1 benchmark report
+📦 Tokenizer → pretrain → SFT → DPO / GRPO → inference → human-feedback loop  
+📚 Docs 🇰🇷 / 🇺🇸 / 🇯🇵 · [BENCHMARK-v2.en.md](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v2.en.md) (Apex-1)
 
 | 🏷️ | Detail |
 |:--|:--|
 | ⚙️ Stack | PyTorch · CUDA · BPE tokenizer |
-| 📐 Model | ~327M `base` (RMSNorm, RoPE, SwiGLU, GQA) |
-| 🔄 Status | Actively updated |
+| 📐 Arch | 24L · d2048 · GQA (16Q / 4KV) · RoPE · SwiGLU · RMSNorm · QK-Norm |
+| 🏋️ Train | **51K** steps · **~20B** tokens (EN-only) · ctx train **2048** / max **4096** |
+| 📊 Scores | HumanEval **8.5** · HellaSwag **46.9** · ARC **41.6** · PIQA **68.6** · GSM8K **1.9** |
+| 🤗 Weights | [Apex-1-DPO](https://huggingface.co/YOON1v/Apex-1-DPO) |
+| 📎 Also | ~**327M** multilingual `base` ([BENCHMARK-v1.en.md](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v1.en.md)) · next: **APEX-2 (7B)** |
 
-🔗 [Repository](https://github.com/DW-dev-UE/LLM-from-scratch) &nbsp;·&nbsp; 📊 [Benchmark](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v1.md)
+🔗 [Repository](https://github.com/DW-dev-UE/LLM-from-scratch) &nbsp;·&nbsp; 📊 [Benchmark v2](https://github.com/DW-dev-UE/LLM-from-scratch/blob/main/BENCHMARK-v2.en.md) &nbsp;·&nbsp; 🤗 [HF](https://huggingface.co/YOON1v/Apex-1-DPO)
 
 ---
 
 ## 🚀 Featured Projects
 
-|  | Project | What it is |
-|:--:|:--------|:-----------|
-| 🏫 | **[Konkuk RV.LAB](https://github.com/DW-dev-UE/DevLOG/blob/main/Konkuk-RVLab.md)** | University lab production project |
-| ⚡ | **[ShiningPass architecture](https://github.com/DW-dev-UE/DevLOG/blob/main/ShiningPass-Architecture.md)** | System optimization (~340% gain, 2025) |
-| 🖼️ | **[CUDA · YOLOv26 drawing AI](https://github.com/DW-dev-UE/DevLOG/blob/main/CUDA-YOLOv26-AI.md)** | AI automation for drawings |
-| 💼 | **[ABadOmic (freelance)](https://github.com/DW-dev-UE/DevLOG/blob/main/ABadOmic-Freelance.md)** | Client project |
-| 🎮 | **[STEAM game release](https://github.com/DW-dev-UE/DevLOG/blob/main/STEAM-Game-Release.md)** | Shipped game on Steam |
-| 📦 | **[Kmong freelance](https://github.com/DW-dev-UE/DevLOG/blob/main/Kmong-Freelance.md)** | Multiple freelance deliveries |
-| 🏡 | **[Planterior-AI](https://github.com/DW-dev-UE/Planterior-AI/blob/main/README.md)** | AI model → backend → digital twin |
+|  | Project | Year | What it is |
+|:--:|:--------|:----:|:-----------|
+| 🏫 | **[Konkuk RV.LAB](projects/konkuk-rvlab/Konkuk-RVLab.md)** | 2023–2024 | Situation-based police VR training (Quest · UE5) |
+| ⚡ | **[ShiningPass](projects/shiningpass/ShiningPass.md)** | 2025 | Architecture interior client + web (UE5 · Python · AWS) |
+| 🖼️ | **[CUDA · YOLOv26 drawing AI](https://github.com/DW-dev-UE/YOLO-to-DALI-CUDA)** | 2026 | YOLO + full CUDA DALI pipeline for drawings |
+| 💼 | **[ABadOmic (freelance)](projects/abadomic/ABadOmic.md)** | 2025 | Day/night escape · UE5.6 C++ (dorm / trust / multi-ending) |
+| 🎮 | **[STEAM games](projects/steam-games/Steam.md)** | 2023 | Only go up™ · THE LAST BREATH (Y Games / YUNDONGWOOK) |
+| 📦 | **[Kmong freelance](projects/kmong/Kmong.md)** | 2022– | UE4/5 outsourcing · 5.0 (35) · 42 deals |
+| 🏡 | **[Planterior-AI](https://github.com/DW-dev-UE/Planterior-AI/blob/main/README.md)** | 2025–2026 | AI model → backend → digital twin |
 
 👆 Open a title for overview, architecture, stack, and screenshots.
 
@@ -69,7 +72,7 @@ Full stack and AI developer with a strong focus on **Unreal Engine 5**, **Python
 
 Published packages you can install with `pip`.
 
-### 🧩 [ComposeLM](https://github.com/DW-dev-UE/ComposeLM) · `composelm`
+### 🧩 [ComposeLM](https://github.com/DW-dev-UE/ComposeLM) · `composelm` · `2026`
 
 > **One-line configurable modular Transformer · assemble · train · infer**
 
@@ -86,7 +89,7 @@ PyTorch library for building decoder-only LMs from a single `ModelConfig` — pr
 
 ---
 
-### ⚡ [schema2code](https://github.com/DW-dev-UE/schema2code) · `schema2code`
+### ⚡ [schema2code](https://github.com/DW-dev-UE/schema2code) · `schema2code` · `2026`
 
 > **LLMs call tools by writing sandboxed Python — not JSON tool calls**
 
